@@ -5,9 +5,9 @@ import { Route } from 'react-router-dom';
 const App = () => (
   <div>
     <Navigation />
-    <Route exact Path="/" component={Home} />
-    <Route Path="/about" component={About} />
-    <Route Path="/contact" component={Contact} />
+    <Route  exact path="/" component={Home}/>
+    <Route   path="/About" component={About}/>
+    <Route   path="/Contact" component={Contact}/>
   </div>
 );
 
